@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" href="Resources/CSS/style.css">
+<script src="Resources/Scripts/script.js"></script>
+<title>Birthday Card</title>    
+</head>    
+<body>
+<div id="outside">
+<p id="outside-title">
+Happy 44th Birthday Mom
+</p>
+<img id="outside-pic" src="Resources/Photos/Spiffy Spools.png" alt="Spiffy Spools">
+<br>
+<button id = "outside-button" onclick = "open_card()"> 
+Click For Surprise    
+</button>    
+</div>
+<div id="inside">
+    <p id="inside-title">
+    Happy Birthday! Enjoy Bentley.
+    </p>
+    <img id="inside-pic" src="Resources/Photos/Bentley.png" alt="Spiffy Spools">
+    <br>
+    <button id = "inside-button" onclick = "close_card()">
+    Close to Leave Surprise    
+    </button>    
+    <br>
+    <button id = "secret-button" onclick="open-secret()">Secret</button>
+</div>
+<div id="secret">
+    <p id="secret-title">
+    Happy Birthday! Enjoy Bentley.
+    </p>
+    <img id="secret-pic" src="Resources/Photos/Bentley.png" alt="Spiffy Spools">
+    <br>   
+    <button id = "secret-button-close" onclick="close-secret()">
+    Leave The Secret
+    </button>
+</div>
+</body>
+</html>
